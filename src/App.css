@@ -1,38 +1,160 @@
-.App {
-  text-align: center;
-}
+/* font-family: 'Tinos', serif;
+font-family: 'Yantramanav', sans-serif; */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url("https://fonts.googleapis.com/css2?family=Tinos&family=Yantramanav:wght@900&display=swap");
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Header Style ___________________________ */
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#classic {
+  background: url(./assets/img/bar1.png) center / cover no-repeat;
+  height: 100vh;
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+}
+#head {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 70vh;
+  line-height: 80px;
+  margin-top: 4%;
+}
+#head h2 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  font-size: 7rem;
+}
+#head h1 {
+  margin-bottom: 3%;
+  margin-top: 3%;
+  font-size: 12rem;
+}
+/* Navigation Style ___________________________ */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#navi {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  background-color: black;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 7vh;
+}
+#navi a {
+  text-decoration: none;
+  color: gray;
+  font-size: 1.5rem;
+}
+#navi li {
+  list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
+/* Section1 Style __________________ */
+#About {
+  background-color: #212121;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  font-family: "Tinos", serif;
+}
+#about_text {
+  color: #ffffff;
+  margin-left: 7%;
+  width: 30%;
+}
+#about_text p {
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+  margin-top: 3%;
+  width: 60%;
+}
+#about_text h1 {
+  font-size: 3rem;
+}
+#about_text button {
+  padding: 3% 5%;
+  background-color: #bb7043;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Section2 Style __________________ */
+#covid {
+  background-color: #bb7043;
+  height: 100vh;
+}
+.text {
+  font-size: 25px;
+  width: 80%;
+  margin-left: 10%;
+  padding-top: 7%;
+  text-transform: uppercase;
+  font-family: "Tinos", serif;
+}
+#flex {
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+#jive {
+  background: url(./assets/img/Rectangle.png) left/cover no-repeat;
+  height: 35vh;
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 6%;
+}
+#afte {
+  background: url(./assets/img/Rectangle1.png) center / cover no-repeat;
+  height: 35vh;
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 6%;
+}
+#dance {
+  background: url(./assets/img/Rectangle2.png) right / cover no-repeat;
+  height: 35vh;
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-bottom: 6%;
+}
+#flex h4 {
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 1.5rem;
+}
+#flex p {
+  width: 60%;
+  font-size: 16px;
+  font-family: "Tinos", serif;
+}
+#flex p:nth-of-type(1) {
+  margin-top: 4%;
 }
