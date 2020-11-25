@@ -1,16 +1,16 @@
-// const Navigation = () => {
-//     return ( 
-//         <nav>
-//             <ul id="navi">
-//                 <li><a href="#">Home</a></li>
-//                 <li><a href="#">Home</a></li>
-//                 <li><a href="#">Home</a></li>
-//                 <li><a href="#">Home</a></li>
-//                 <li><a href="#">Home</a></li>
+const Navigation = () => {
+    return ( 
+        <nav>
+            <ul id="navi">
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
                 
-//             </ul>
-//         </nav>
-//      );
-// }
+            </ul>
+        </nav>
+     );
+}
  
-// export default Navigation;
+export default Navigation;
