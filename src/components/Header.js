@@ -1,9 +1,9 @@
-import Navigation from "./Navigation";
+// import Navigation from "./Navigation";
 
 const Header = () => {
     return ( 
         <section id="classic">
-            <Navigation/>
+            {/* <Navigation/> */}
             <div id="head">
             <h2>A CLASSIC</h2>
             <h1> GIN JOINT </h1>
