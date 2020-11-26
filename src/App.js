@@ -1,12 +1,7 @@
 
 import './App.css';
-// import Footer from './components/Footer';
-// import Header from './components/Header';
-// import Section1 from './components/Section1';
-// import Section2 from './components/Section2';
-// import Section3 from './components/Section3';
-// import Section4 from './components/Section4';
-// import Section5 from './components/Section5';
+
+import React from "react";
 
 import {
   BrowserRouter as Router,
@@ -14,35 +9,41 @@ import {
   Route,
   // Link
 } from "react-router-dom";
-// import Navigation from './components/Navigation';
+
 import HOME from './components/HOME';
 import SHOP from './components/SHOP';
 
 import Navigation from './components/Navigation';
-import CONTACT from './components/CONTACT';
+
+import Contact from './components/Contact';
+import Entertaiment from './components/Entertainment';
+import Event from './components/Event';
+import Section5 from './components/Section5';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <main>
-   {/* <HOME/> */}
+    
+  
       <Router>
         <Navigation/>
-        {/* <Navigation/> */}
+        
         <Switch>
-        <Route path="/" exact component={HOME}/>
-       {/* <Route path="/ENTERTAIMENT"  component={ENTERTAIMENT}/> */}
-       <Route path="/SHOP" exact component={SHOP}/>
-       {/* <Route path="/EVENTS"  component={EVENTS}/> */}
-       <Route path="CONTACT" exact component={CONTACT}/>
-       <Route path="/*"/>
+        <Route path="/" exact component={HOME} />
+       <Route path="/Entertaiment"  component={Entertaiment}/>
+       <Route path="/SHOP"  component={SHOP} />
+       <Route path="/EVENTS"  component={Event}/>
+       <Route path="Contact"  component={Contact} />
+       <Contact/>
+       
         </Switch>
-        <CONTACT/>
         
-        
-      
+        <Section5/>
+        <Footer/>
+       
       
       </Router>
-      </main>
+      
       
 
 

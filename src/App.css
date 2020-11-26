@@ -350,3 +350,84 @@ table tr:nth-of-type(1) {
   background: url(./assets/img/bar.png) center/ cover no-repeat;
   height: 100vh;
 }
+#map {
+  background: url(./assets/img/map.png) center / cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#map h1 {
+  background-color: #c4c4c4;
+  font-size: 6rem;
+  letter-spacing: 5px;
+  width: 55%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 3% 1%;
+}
+#userInfo {
+  background-color: #bb7043;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#userData {
+  width: 40%;
+}
+#userData p {
+  font-size: 24px;
+  font-family: "Tinos", serif;
+  margin-bottom: 3%;
+}
+#userData h1 {
+  color: #ffffff;
+  font-size: 4rem;
+  line-height: 60px;
+  font-family: "Yantramanav", sans-serif;
+}
+
+#usertable p {
+  font-family: "Tinos", serif;
+  margin-top: 10%;
+}
+#usertable table {
+  color: #ffffff;
+}
+
+#userForm {
+  height: 60vh;
+  width: 40%;
+}
+
+#userForm form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 10%;
+}
+#userForm input {
+  height: 4vh;
+  padding-left: 3%;
+  border: none;
+  margin-bottom: 3%;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 20px;
+}
+#userForm textarea {
+  padding-left: 3%;
+  border: none;
+  margin-bottom: 3%;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 20px;
+}
+#userForm button {
+  width: 30%;
+  background-color: #212121;
+  color: #ffffff;
+  padding: 3%;
+  font-size: 24px;
+  font-family: "Tinos", serif;
+}

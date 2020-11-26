@@ -1,30 +1,12 @@
-import Footer from "./Footer";
-// import Navigation from "./Navigation";
-// import Navigation from "./Navigation";
-import Section5 from "./Section5";
-// import Header from "./Header";
-// import Navigation from "./Navigation";
-// import Section1 from "./Section1";
-// import Section2 from "./Section2";
-// import Section3 from "./Section3";
-// import Section4 from "./Section4";
-// import Section5 from "./Section5";
+
+
 
 const HOME = () => {
     return ( 
        <article>
            
-           {/* <Navigation/>
-          <Header/>
-          <Section1/>
-          <Section2/>
-          <Section3/>
-          <Section4/>
-          <Section5/>
-          <Footer/> */}
           <section id="classic">
-              {/* <Navigation/> */}
-            {/* <Navigation/> */}
+              
             <div id="head">
             <h2>A CLASSIC</h2>
             <h1> GIN JOINT </h1>
@@ -128,8 +110,7 @@ const HOME = () => {
             </div>
 
         </section>
-        <Section5/>
-        <Footer/>
+        
 
        </article>
      );
