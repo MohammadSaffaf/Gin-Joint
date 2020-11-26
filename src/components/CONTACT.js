@@ -1,9 +1,5 @@
 
-// const { default: Navigation } = require("./Navigation")
-
  import UserDataInput  from "./UserDataInput"
-
-
 
 const Contact = () => {
     return ( 
@@ -15,7 +11,7 @@ const Contact = () => {
                <p>Want to get in touch? Drop us a dime or shoot us an email using the form below.
                </p>  
                </div>
-               <div id="about_bilder">
+               <div id="contact_bilder">
               </div>
               </header>
 
@@ -23,9 +19,7 @@ const Contact = () => {
               <h1>132 9th Avenue New York</h1>
             </div>
             <UserDataInput/>
-            </main>
-        
-        
+            </main>   
     )}
  
 export default Contact;

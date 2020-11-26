@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "type": "Jazz n' Jive",
+        "day": "Every Monday",
+        "clock": "9:11 PM",
+        "feature": "Jazz up your Monday nights with intimate and lively performances by a rotating selection of renowned bands.",
+        "img": "../assets/img/Rectangle.png"
+    },
+    {
+        "id": 2,
+        "type": "Burlesque After Dark",
+        "day": "Every Tuesday & Sunday",
+        "clock": "9:30 PM",
+        "feature": "Enter the world of burlesque and lose yourself in enticing witty performances, exceptional cocktails, and lively music.",
+        "img": "../assets/img/Rectangle1.png"
+    },
+    {
+        "id": 3,
+        "type": "DJs & Dance Tracks",
+        "day": "Every Thursday, Friday & Saturday Night",
+        "clock": "FROM 9PM & 10PM ",
+        "feature": "If you're looking for a packed crowd, come when the party is bigger, the pace is faster, and the morals are looser.",
+        "img": "../assets/img/Rectangle2.png"
+    }
+]

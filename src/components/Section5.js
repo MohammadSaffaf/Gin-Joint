@@ -35,14 +35,6 @@ const Section5 = () => {
                 <td>9am — 4pm</td>
                 </tr>
                 </table>
-               
-                
-                
-                
-               
-                
-                
-               
 
             </div>
         </section>

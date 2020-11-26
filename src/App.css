@@ -99,69 +99,50 @@ nav {
 #covid {
   background-color: #bb7043;
   height: 100vh;
+  width: 100%;
+}
+#dataSection {
+  width: 30%;
+  margin-bottom: 10vh;
+}
+#dataSection h1 {
+  font-family: "Yantramanav", sans-serif;
+  font-size: 3rem;
+  width: 50%;
+  text-align: center;
+}
+#dataSection h2 {
+  font-family: "Yantramanav", sans-serif;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 25px;
+}
+#dataSection #clock {
+  font-family: "Yantramanav", sans-serif;
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 20px;
+}
+#feature {
+  color: #212121;
+  font-family: "Tinos", serif;
+  font-weight: 500;
+  font-size: 20px;
+  width: 60%;
+  margin-top: 2%;
+}
+#Datatype {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 .text {
   font-size: 25px;
   width: 80%;
   margin-left: 10%;
-  padding-top: 7%;
+  padding-top: 5%;
   text-transform: uppercase;
   font-family: "Tinos", serif;
-}
-#flex {
-  width: 90%;
-  display: flex;
-  margin-left: 5%;
-  margin-top: 10%;
-}
-#jive {
-  background: url(./assets/img/Rectangle.png) left/cover no-repeat;
-  height: 35vh;
-  color: #ffffff;
-  font-family: "Yantramanav", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  margin-bottom: 6%;
-}
-#afte {
-  background: url(./assets/img/Rectangle1.png) center / cover no-repeat;
-  height: 35vh;
-  color: #ffffff;
-  font-family: "Yantramanav", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  margin-bottom: 6%;
-}
-#dance {
-  background: url(./assets/img/Rectangle2.png) right / cover no-repeat;
-  height: 35vh;
-  color: #ffffff;
-  font-family: "Yantramanav", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  margin-bottom: 6%;
-}
-#flex h4 {
-  color: #ffffff;
-  font-family: "Yantramanav", sans-serif;
-  font-size: 1.5rem;
-}
-#flex p {
-  width: 60%;
-  font-size: 16px;
-  font-family: "Tinos", serif;
-}
-#flex p:nth-of-type(1) {
-  margin-top: 4%;
 }
 
 /* Section3 Style __________________ */
@@ -206,56 +187,36 @@ nav {
 }
 
 /* Section4 Style __________________ */
+
 #drink {
   background-color: #212121;
-  height: 100vh;
+  height: 105vh;
   color: #ffffff;
   display: flex;
+  width: 100%;
 }
 #fronts {
-  width: 50%;
+  width: 100%;
   border: 0.5px solid #7f7f7f;
 }
 #drink img {
   margin-left: 90%;
   margin-top: 6%;
 }
-#jack {
-  width: 50%;
 
-  border: 0.5px solid #7f7f7f;
-}
 #fronts_img {
-  background: url(./assets/img/gin\ 1.png) center 60% no-repeat;
   height: 60vh;
-  /* margin-top: 10%; */
   margin-bottom: 2%;
 }
-#jack_img {
-  background: url(./assets/img/jack\ 1.png) center 60% no-repeat;
-  height: 60vh;
-  /* margin-top: 10%; */
-  margin-bottom: 2%;
-}
+
 #fronts h4 {
   text-align: center;
   font-size: 2.5rem;
   width: 67%;
   margin-left: 16.5%;
 }
-#jack h4 {
-  text-align: center;
-  font-size: 2.5rem;
-  width: 68%;
-  margin-left: 16%;
-}
+
 #fronts p {
-  text-align: center;
-  margin-top: 4%;
-  text-transform: uppercase;
-  font-size: 20px;
-}
-#jack p {
   text-align: center;
   margin-top: 4%;
   text-transform: uppercase;
@@ -345,9 +306,9 @@ table tr:nth-of-type(1) {
   line-height: 90px;
   width: 70%;
 }
-#about_bilder {
+#contact_bilder {
   width: 70%;
-  background: url(./assets/img/bar.png) center/ cover no-repeat;
+  background: url(./assets/img/bar3.png) center/ cover no-repeat;
   height: 100vh;
 }
 #map {

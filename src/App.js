@@ -1,13 +1,10 @@
-
 import './App.css';
-
 import React from "react";
-
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  // Link
+  
 } from "react-router-dom";
 
 import HOME from './components/HOME';
@@ -24,8 +21,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     
-  
-      <Router>
+        <Router>
         <Navigation/>
         
         <Switch>
@@ -37,16 +33,10 @@ function App() {
        <Contact/>
        
         </Switch>
-        
         <Section5/>
         <Footer/>
-       
-      
       </Router>
       
-      
-
-
     
   );
 }

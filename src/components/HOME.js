@@ -1,4 +1,7 @@
-
+import Data from "./Data1";
+import Info from "../data/data.json"
+import DrinkList from "./DrinkList";
+import Drinks from "../data/dataDrink.json"
 
 
 const HOME = () => {
@@ -32,49 +35,18 @@ const HOME = () => {
        <section id="covid">
             <p className="text">Due to COVID-19 and the temporary closing of Bathtub Gin, our nightly entertainment is currently on pause. Stay tuned for updates on our reopening date and new events, coming soon!
 </p>
-<article id="flex">
-    <figure id="jazz">
-       <div id="jive">
-       <h3>Jazz n'</h3>
-       <h3>Jive</h3>
-       </div>
-        <figcaption>
+
+<div id="Datatype">
+        {Info.map(index =>  <Data 
+            dataType = {index.type}
+            dataDay = {index.day}
+            dataClock = {index.clock}
+            dataFeature = {index.feature}
+            dataImg = {index.img}
+            key = {index.id}
             
-            <h4>EVERY MONDAY</h4>
-            <h4>9-11PM</h4>
-            <p>Jazz up your Monday nights with intimate and lively performances by a rotating selection of renowned bands.</p>
-            <p>Nate Jones Band</p>
-            <p>Fleur Seule</p>
-            <p>Dandy Wellington</p>
-            <p>The Ladybugs</p>
-            
-        </figcaption>
-    </figure>
-    <figure>
-    <div id="afte">
-    <h3>Burlesque</h3>
-    <h3>After Dark</h3>
-    </div>
-        <figcaption>
-        
-            <h4>EVERY TUESDAY & SUNDAY</h4>
-            <h4>9:30PM</h4>
-            <p>Enter the world of burlesque and lose yourself in enticing witty performances, exceptional cocktails, and lively music.</p>
-        </figcaption>
-    </figure>
-    <figure>
-    <div id="dance">
-    <h3>DJs &</h3>
-    <h3>Dance Tracks</h3>
-    </div>
-        <figcaption>
-        
-            <h4>EVERY THURSDAY, FRIDAY & SATURDAY NIGHT</h4>
-            <h4>FROM 9PM & 10PM</h4>
-            <p>If you're looking for a packed crowd, come when the party is bigger, the pace is faster, and the morals are looser.</p>
-        </figcaption>
-    </figure>
-</article>
+        />)}
+        </div>
 
 
         </section>
@@ -84,32 +56,21 @@ const HOME = () => {
                 <h1>Hand Crafted Cocktails & Damn Good Eats</h1>
                 
                 <p>We mix our gin and other spirits with the finest and freshest fruits, juices, syrups and infusions in cocktails inspired by original recipes.
-</p>
+                </p>
                 <button>Read More</button>
             </div>
             <div id="hand_bilder">
-            {/* <img src="./assets/img/hand.png" alt=""/> */}
+            
             </div>
         </section>
-        <section id="drink">
-            <div id="fronts">
-                <img src="./assets/img/Frame.png" alt="" srcset=""/>
-                <div id="fronts_img">
-
-                </div>
-                <h4>“A trick door opening to Bathtub Gin, a hopping Chelsea gin joint harkening back to the days of false store fronts”</h4>
-                <p>The Guardian</p>
-            </div>
-            <div id="jack">
-            <img src="./assets/img/Frame.png" alt="" srcset=""/>
-            <div id="jack_img">
-
-             </div>
-            <h4>“Life on the inside: exactly how you imagined it’d be... nailhead-tucked bar stools and—smack-dab in the center of the room—a glass-covered,claw-foot bathtub.”</h4>
-            <p>URBAN DADDY</p>
-            </div>
-
-        </section>
+        <div id="Datatype">
+        {Drinks.map(index2 =>  <DrinkList 
+            infoDrink = {index2.infoDrinks}
+            author = {index2.author}
+            drinksImg = {index2.Drinks}
+            key = {index2.id}
+            />)}
+        </div>
         
 
        </article>
