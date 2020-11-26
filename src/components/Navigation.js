@@ -1,12 +1,24 @@
+import { Link } from "react-router-dom";
+
 const Navigation = () => {
     return ( 
         <nav>
             <ul id="navi">
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
+            <li>
+        <Link to="/">HOME</Link>
+        </li>
+        <li>
+        <Link to="/ENTERTAIMENT">ENTERTAIMENT</Link>
+        </li>
+        <li>
+        <Link to="/SHOP">SHOP</Link>
+        </li>
+        <li>
+        <Link to="/EVENTS">EVENTS</Link>
+        </li>
+        <li>
+        <Link to="/CONTACT">CONTACT</Link>
+        </li>
                 
             </ul>
         </nav>

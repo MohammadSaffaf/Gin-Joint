@@ -1,7 +1,8 @@
 /* font-family: 'Tinos', serif;
 font-family: 'Yantramanav', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 
-@import url("https://fonts.googleapis.com/css2?family=Tinos&family=Yantramanav:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Tinos&family=Yantramanav&display=swap");
 
 /* Header Style ___________________________ */
 * {
@@ -19,9 +20,8 @@ font-family: 'Yantramanav', sans-serif; */
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 70vh;
+  height: 100vh;
   line-height: 80px;
-  margin-top: 4%;
 }
 #head h2 {
   margin-bottom: 1%;
@@ -45,13 +45,20 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 80%;
-  background-color: black;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  width: 100%;
+  background-color: #312929;
+
   height: 7vh;
   color: gray;
   font-size: 1.5rem;
+}
+#navi a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+#navi a:hover {
+  color: #bb7043;
 }
 
 #navi li {
@@ -308,4 +315,38 @@ table tr:nth-of-type(1) {
 }
 #icon img {
   margin-left: 4%;
+}
+
+/*  CONTACT Style ___________________________ */
+
+#contactHeader {
+  background-color: #bb7043;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header_text {
+  width: 50%;
+  color: #212121;
+  margin-left: 10%;
+}
+#header_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  width: 60%;
+  margin-bottom: 2%;
+}
+#header_text h1 {
+  font-size: 6rem;
+  color: #ffffff;
+  font-family: "Yantramanav", sans-serif;
+  line-height: 90px;
+  width: 70%;
+}
+#about_bilder {
+  width: 70%;
+  background: url(./assets/img/bar.png) center/ cover no-repeat;
+  height: 100vh;
 }
