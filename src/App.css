@@ -392,3 +392,29 @@ table tr:nth-of-type(1) {
   font-size: 24px;
   font-family: "Tinos", serif;
 }
+
+/* SHOP CSS______________________ */
+#comming {
+  background-color: #bb7043;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#comming h1 {
+  font-size: 20rem;
+  color: red;
+}
+#comming h2 {
+  font-size: 6rem;
+}
+#comming h3 {
+  font-size: 6rem;
+  margin-top: 2%;
+  color: #ffffff;
+}
+#obenShop {
+  background: url(./assets/img/open.png) center / cover no-repeat;
+  height: 100vh;
+}

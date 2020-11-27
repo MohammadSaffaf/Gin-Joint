@@ -6,8 +6,7 @@ import Drinks from "../data/dataDrink.json"
 
 const HOME = () => {
     return ( 
-       <article>
-           
+       <main>
           <section id="classic">
               
             <div id="head">
@@ -59,9 +58,7 @@ const HOME = () => {
                 </p>
                 <button>Read More</button>
             </div>
-            <div id="hand_bilder">
             
-            </div>
         </section>
         <div id="Datatype">
         {Drinks.map(index2 =>  <DrinkList 
@@ -73,7 +70,7 @@ const HOME = () => {
         </div>
         
 
-       </article>
+       </main>
      );
 }
  
