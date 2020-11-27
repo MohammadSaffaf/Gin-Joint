@@ -29,8 +29,8 @@ function App() {
        <Route path="/Entertaiment"  component={Entertaiment}/>
        <Route path="/SHOP"  component={SHOP} />
        <Route path="/EVENTS"  component={Event}/>
-       <Route path="Contact"  component={Contact} />
-       <Contact/>
+       <Route path="/Contact"  component={Contact} />
+       
        
         </Switch>
         <Section5/>
