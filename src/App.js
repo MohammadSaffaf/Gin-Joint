@@ -17,7 +17,8 @@ import Entertaiment from './components/Entertainment';
 import Event from './components/Event';
 import Section5 from './components/Section5';
 import Footer from './components/Footer';
-import Contact from './components/Contact';
+import CONTACT from './components/CONTACT';
+
 
 function App() {
   return (
@@ -30,7 +31,7 @@ function App() {
        <Route path="/Entertaiment"  component={Entertaiment}/>
        <Route path="/SHOP"  component={SHOP} />
        <Route path="/EVENTS"  component={Event}/>
-       <Route path="/Contact"  component={Contact} />
+       <Route path="/CONTACT"  component={CONTACT} />
        
        
         </Switch>
