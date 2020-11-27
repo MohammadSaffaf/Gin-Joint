@@ -12,11 +12,12 @@ import SHOP from './components/SHOP';
 
 import Navigation from './components/Navigation';
 
-import Contact from './components/Contact';
+
 import Entertaiment from './components/Entertainment';
 import Event from './components/Event';
 import Section5 from './components/Section5';
 import Footer from './components/Footer';
+import Contact from './components/Contact';
 
 function App() {
   return (
